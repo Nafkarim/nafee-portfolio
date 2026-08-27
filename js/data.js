@@ -17,6 +17,17 @@ const ABOUT = {
 
 const EXPERIENCE = [
   {
+    company: 'Self-Employed',
+    role: 'Forward Deployed Engineer (FDE)',
+    location: 'Houston, TX',
+    dates: 'Aug 2026 – Present',
+    present: true,
+    bullets: [
+      'Working as an FDE for local businesses: shadowing their day-to-day operations and workflows to find bottlenecks.',
+      'Building lightweight custom tools to automate manual steps and make their teams more efficient.'
+    ]
+  },
+  {
     company: 'Eternitie',
     companyNote: '(Formerly Frat OS)',
     logo: 'assets/logos/eternitie.png',
