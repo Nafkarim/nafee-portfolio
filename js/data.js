@@ -124,6 +124,16 @@ const RESEARCH = [
 
 const PROJECTS = [
   {
+    title: 'Gym CMMS',
+    hook: 'Maintenance management system for gym equipment',
+    tags: ['Product', 'Full-Stack'],
+    link: { href: 'https://gym-cmms.vercel.app/map', label: 'Open Live Demo' },
+    bullets: [
+      'Built a maintenance management app for gyms with Next.js, TypeScript, and Supabase, featuring a Three.js 3D floor map with live equipment status pins.',
+      'Every machine gets a QR code for no-login problem reports that open work orders in a staff queue with assignment, status tracking, and a mobile technician view.'
+    ]
+  },
+  {
     title: 'Teacher OS',
     hook: 'AI-powered education platform on Palantir AIP',
     tags: ['Product', 'AI / Data'],
@@ -159,11 +169,12 @@ const PROJECTS = [
   },
   {
     title: 'Logistics Tour Optimization',
-    hook: 'Linear-programming routing tool',
-    tags: ['Ops Research', 'Excel / LP'],
+    hook: 'Weekly truck routing for a 1,000-truck fleet',
+    tags: ['Ops Research', 'Python'],
+    link: { href: 'projects/fleet-route-optimizer/', label: 'Open Live Demo' },
     bullets: [
-      'Developed a trucking logistics optimization tool using linear programming to minimize total transportation cost and streamline routing efficiency.',
-      'Designed dynamic Excel-based matrices to calculate per-mile costs, trip distances, and truck allocations, reducing empty truck returns, improving route efficiency, and lowering carbon emissions.'
+      'Built an optimizer that assigns and sequences 5,000 loads across 1,000 trucks for a week, minimizing empty miles while respecting time windows, DOT hours-of-service rules, and getting every truck home.',
+      'Solved with Large Neighborhood Search and simulated annealing, benchmarked against naive dispatch, and shipped a FastAPI + Leaflet dashboard for exploring routes and re-optimizing.'
     ]
   },
   {
